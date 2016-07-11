@@ -1,0 +1,50 @@
+body {
+  background-color: green;font-size: 35px;
+}
+
+img {
+  border: 2px solid blue;
+  padding: 10px 40px;
+}
+
+.text-center {
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+}
+#navbar {
+  font-family: monospace;
+}
+
+/* <div class="text-center"> */
+.text-center {
+  text-align: center;
+}
+
+.dotted-border {
+  border: 5px dotted green;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.dashed-border {
+  border: 5px dashed pink;
+  border-radius: 50px;
+}
+.inline {
+  border: 1px solid blue;
+  border-radius: 10%;
+  transition: font-size 1s, color 2ms, transform 5001ms;
+  padding: 10px;
+  margin: 50px;
+
+}
+
+.inline: hover {
+  background-color: rgba(21, 212, 4, 0.4);
+  text-decoration: none;
+  font-size: 40px;
+  color: red;
+  transform: rotate(360deg);
+}
